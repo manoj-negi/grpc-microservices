@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package sum;
+package calculator;
 
 option go_package = "github.com/manoj-negi/grpc-microservices/calculator/proto";
 
