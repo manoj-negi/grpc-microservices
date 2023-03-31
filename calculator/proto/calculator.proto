@@ -4,7 +4,7 @@ package calculator;
 
 import "sum.proto";
 
-option go_package = "github.com/Clement-Jean/grpc-go-course/calculator/proto";
+option go_package = "github.com/manoj-negi/grpc-microservices/calculator/proto";
 
 service CalculatorService {
   rpc Sum(SumRequest) returns (SumResponse);
